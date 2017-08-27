@@ -27,3 +27,15 @@ eventEmitter.on('dataReceive', function() {
 eventEmitter.emit('connection');
 
 console.log('end..............'); */
+
+
+/* console.log(__filename);
+console.log(__dirname);
+
+setTimeout(function() {
+    console.log('hello!/n');
+}, 10); */
+
+var f1 = require('./model.js');
+console.log(f1);
+console.log(f1.func());
